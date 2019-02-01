@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: ProcessingService
+
 spring.datasource:
   url: jdbc:h2:file:~/ProcessingService;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE
 
